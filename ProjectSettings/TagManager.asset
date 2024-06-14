@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
+  - Interactable
+  - Audio Manager
   layers:
   - Default
   - TransparentFX
@@ -11,9 +14,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Player
+  - Ground
+  - Interactables
   - 
   - 
   - 
@@ -40,4 +43,22 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background_1
+    uniqueID: 1840419855
+    locked: 0
+  - name: Background_2
+    uniqueID: 3898881273
+    locked: 0
+  - name: Background_3
+    uniqueID: 1806334513
+    locked: 0
+  - name: Midground
+    uniqueID: 3973851255
+    locked: 0
+  - name: Foreground_1
+    uniqueID: 3708211375
+    locked: 0
+  - name: Foreground_2
+    uniqueID: 2129927611
     locked: 0

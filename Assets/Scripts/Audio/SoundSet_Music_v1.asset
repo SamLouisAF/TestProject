@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18e244917c6e2bf4da6cd8a0317752e0, type: 3}
+  m_Name: SoundSet_Music_v1
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Main Music
+    clip: {fileID: 8300000, guid: 8f9ece783db0c7042a5e4b5098d60c4e, type: 3}
+    volume: 0.3
+    spatialBlend: 0
+    pitch: 0.85
+    loop: 1
+    source: {fileID: 0}
+  - name: Ambiance 1
+    clip: {fileID: 8300000, guid: e00dc3d96a75f22478e8ece63f5cb508, type: 3}
+    volume: 0.7
+    spatialBlend: 0
+    pitch: 0.77
+    loop: 1
+    source: {fileID: 0}
